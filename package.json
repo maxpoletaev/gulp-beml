@@ -1,0 +1,19 @@
+{
+  "name": "gulp-beml",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "beml": "~0.1.0",
+    "map-stream": "~0.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Maxim Shkalin <dt5@bk.ru>",
+  "license": "MIT"
+}
