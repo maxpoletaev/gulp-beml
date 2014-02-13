@@ -1,7 +1,13 @@
 {
   "name": "gulp-beml",
-  "version": "0.0.0",
-  "description": "",
+  "version": "0.1.0",
+  "repository": "https://github.com/ethernet1/gulp-beml",
+  "description": "HTML preprocessor for BEM",
+  "keywords": [
+    "gulpplugin",
+    "beml",
+    "bem"
+  ],
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -10,9 +16,13 @@
     "beml": "~0.1.0",
     "map-stream": "~0.1.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "gulp-util": "~2.2.14",
+    "mocha": "~1.17.1",
+    "should": "~3.1.2"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha -R spec"
   },
   "author": "Maxim Shkalin <dt5@bk.ru>",
   "license": "MIT"

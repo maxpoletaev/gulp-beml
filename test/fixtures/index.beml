@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hello world</title>
+  </head>
+  <body block="b-page">
+    <div block="b-block" mod="size:large">
+      <div elem="elem">
+        <div elem="elem-name" mix="block:b-mix, elem:elem">Hello world</div>
+      </div>
+    </div>
+  </body>
+</html>
