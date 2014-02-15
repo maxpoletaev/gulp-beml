@@ -1,7 +1,7 @@
 {
   "name": "gulp-beml",
-  "version": "0.1.0",
-  "repository": "https://github.com/ethernet1/gulp-beml",
+  "version": "0.1.1",
+  "repository": "https://github.com/zenwalker/gulp-beml",
   "description": "HTML preprocessor for BEM",
   "keywords": [
     "gulpplugin",
