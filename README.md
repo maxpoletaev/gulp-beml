@@ -18,7 +18,11 @@ Then, add it to your gulpfile.js:
 var beml = require('gulp-beml');
 
 gulp.src('./src/*.html')
-  .pipe(beml())
+  .pipe(beml({
+    elemPrefix: '__',
+    modPrefix: '_',
+    modDlmtr: '_'
+  }))
   .pipe(gulp.dest('./dist'));
 ```
 
