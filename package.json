@@ -14,7 +14,8 @@
   },
   "dependencies": {
     "beml": "^1.0.0",
-    "map-stream": "^0.1.0"
+    "map-stream": "^0.1.0",
+    "through2": "^2.0.3"
   },
   "devDependencies": {
     "gulp-util": "^2.2.14",
